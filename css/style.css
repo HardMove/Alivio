@@ -113,7 +113,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 999px;
+  z-index: 999;
   -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
 }
@@ -260,4 +260,67 @@ h2 {
   line-height: 157%;
   color: #01996d;
   max-width: 580px;
+}
+
+.cards {
+  margin-top: 85px;
+  margin-bottom: 50px;
+}
+
+.cards .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cards__item {
+  position: relative;
+  max-width: 385px;
+}
+
+.cards__item:nth-child(1) .cards__title {
+  position: absolute;
+  left: 22.5%;
+  top: 9.5%;
+}
+
+.cards__item:nth-child(2) {
+  margin-top: 270px;
+}
+
+.cards__item:nth-child(2) .cards__title {
+  position: absolute;
+  left: 18.5%;
+  top: 12.5%;
+}
+
+.cards__item:nth-child(3) {
+  margin-top: 50px;
+}
+
+.cards__item:nth-child(3) .cards__title {
+  position: absolute;
+  left: 33%;
+  top: 10%;
+}
+
+.cards__number {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150px;
+  color: rgba(1, 153, 109, 0.2);
+}
+
+.cards__title {
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.cards__text {
+  margin: 30px 0 60px 0;
 }
