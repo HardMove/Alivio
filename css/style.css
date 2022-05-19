@@ -98,6 +98,7 @@ h6 {
 .container {
   max-width: 1370px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .header {
@@ -112,8 +113,8 @@ h6 {
           box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
 }
 
-.header img {
-  margin-right: 170px;
+.header nav {
+  margin-right: auto;
 }
 
 .header nav ul {
@@ -130,6 +131,10 @@ h6 {
   color: #292929;
 }
 
+.header__logo {
+  margin-right: 150px;
+}
+
 .header__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -137,6 +142,9 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .header__buttons {
@@ -147,7 +155,6 @@ h6 {
       -ms-flex-align: center;
           align-items: center;
   gap: 35px;
-  margin-left: 280px;
   font-family: "Lato";
   font-weight: 400;
   font-size: 20px;
