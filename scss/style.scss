@@ -1,13 +1,18 @@
 @import "_null";
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+body {
+   height: 100%;
+}
+
 .container {
-   max-width: 1370px;
+   max-width: 1600px;
    margin: 0 auto;
    padding: 0 10px;
 }
 
 .header {
-   padding: 25px 0;
+   background-color: #ffffff;
+   padding: 15px 0;
    border-bottom: 1px solid #d6d6d6;
    position: fixed;
    top: 0;
@@ -58,6 +63,55 @@
       background: #01996d;
       border: 1px solid #01996d;
       border-radius: 5px;
-      padding: 13px 50px;
+      padding: 15px 50px;
    }
+}
+
+.bg-image {
+   display: block;
+   height: 92vh;
+   background-image: url(../img/bg.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   margin-top: 83px;
+
+   h1 {
+      max-width: 440px;
+      padding-top: 175px;
+      padding-bottom: 30px;
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 65px;
+      line-height: 74px;
+      color: #01996d;
+   }
+
+   .main-text {
+      max-width: 420px;
+      padding-bottom: 60px;
+   }
+}
+
+.main-text {
+   font-family: "Lato";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 31px;
+   color: #484848;
+}
+
+.main-button {
+   font-family: "Lato";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 25px;
+   text-align: center;
+   color: #ffffff;
+   background: #01996d;
+   border: 1px solid #01996d;
+   border-radius: 4px;
+   padding: 15px 50px;
 }
