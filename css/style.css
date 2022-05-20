@@ -204,8 +204,6 @@ body {
 
 .text {
   font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
   font-size: 20px;
   line-height: 31px;
   color: #484848;
@@ -224,12 +222,6 @@ body {
 }
 
 .info__mini {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 157%;
-  color: #424242;
   margin-top: 170px;
 }
 
@@ -250,14 +242,26 @@ body {
   font-size: 23px;
 }
 
+.info h2 {
+  max-width: 580px;
+}
+
+.mini-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 157%;
+  color: #424242;
+}
+
 h2 {
   font-family: "Georgia";
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
-  line-height: 157%;
+  line-height: 150%;
   color: #01996d;
-  max-width: 580px;
 }
 
 .cards {
@@ -325,8 +329,8 @@ h2 {
 
 .video {
   background: #245852;
-  padding-top: 280px;
-  padding-bottom: 280px;
+  padding-top: 180px;
+  padding-bottom: 180px;
 }
 
 .video .container {
@@ -368,4 +372,48 @@ h2 {
   position: absolute;
   top: 43%;
   left: 45%;
+}
+
+.video h2 {
+  max-width: 580px;
+}
+
+.product {
+  margin-top: 120px;
+}
+
+.product .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1370px;
+}
+
+.product__photo {
+  position: relative;
+}
+
+.product__card {
+  position: absolute;
+  top: 55%;
+  left: -10%;
+}
+
+.product__text {
+  max-width: 584px;
+}
+
+.product__mini {
+  margin-bottom: 15px;
+}
+
+.product h2 {
+  margin-bottom: 15px;
+}
+
+.product .text {
+  margin-bottom: 40px;
 }
