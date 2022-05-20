@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-   max-width: 1600px;
+   max-width: 1400px;
    margin: 0 auto;
    padding: 0 10px;
 }
@@ -73,6 +73,10 @@ body {
    background-repeat: no-repeat;
    background-size: cover;
    margin-top: 83px;
+
+   .container {
+      max-width: 1600px;
+   }
 
    h1 {
       max-width: 440px;
@@ -209,6 +213,7 @@ h2 {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      max-width: 1600px;
    }
    background: #245852;
    padding-top: 180px;
