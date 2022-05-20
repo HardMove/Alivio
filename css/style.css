@@ -427,6 +427,7 @@ h2 {
 .footer {
   background-color: #245852;
   padding-bottom: 100px;
+  padding-top: 100px;
 }
 
 .footer__list {
@@ -449,6 +450,5 @@ h2 {
 }
 
 .footer__logo {
-  margin-top: 95px;
   margin-bottom: 60px;
 }

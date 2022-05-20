@@ -291,7 +291,7 @@ h2 {
 .footer {
    background-color: #245852;
    padding-bottom: 100px;
-
+   padding-top: 100px;
    &__list {
       display: flex;
       flex-direction: column;
@@ -308,7 +308,6 @@ h2 {
    }
 
    &__logo {
-      margin-top: 95px;
       margin-bottom: 60px;
    }
 }
