@@ -190,6 +190,7 @@ body img {
   background-size: cover;
   background-position: center;
   margin-top: 83px;
+  margin-bottom: 70px;
 }
 
 .bg-image .container {
@@ -231,27 +232,22 @@ body img {
   border: 1px solid #01996d;
   border-radius: 4px;
   padding: 20px 50px;
-}
-
-.info__mini {
-  margin-top: 170px;
+  display: inline-block;
 }
 
 .info__main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  gap: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .info .text {
-  max-width: 735px;
   font-size: 23px;
+  max-width: 50%;
 }
 
 .info h2 {
@@ -269,7 +265,6 @@ body img {
 
 h2 {
   font-family: "Georgia";
-  font-style: normal;
   font-weight: 700;
   font-size: 50px;
   line-height: 150%;
@@ -318,7 +313,7 @@ h2 {
 .cards__item:nth-child(3) .cards__title {
   position: absolute;
   left: 33%;
-  top: 10%;
+  top: 13%;
 }
 
 .cards__number {
@@ -530,14 +525,12 @@ h2 {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .info h2 {
-    margin-bottom: 30px;
-  }
   .info__mini {
-    margin-top: 100px;
+    margin-bottom: 15px;
   }
   .info .text {
-    font-size: 20px;
+    font-size: 19px;
+    max-width: none;
   }
   .header__button {
     display: none;
@@ -561,11 +554,11 @@ h2 {
     margin: 30px 0 30px 0;
   }
   h2 {
-    font-size: 47px;
-    line-height: 115%;
+    font-size: 40px;
+    line-height: 110%;
   }
   .video__title {
-    font-size: 47px;
+    font-size: 40px;
     line-height: 115%;
   }
 }
@@ -573,12 +566,11 @@ h2 {
 @media screen and (max-width: 491px) {
   .bg-image .text {
     color: #ffffff;
-    text-shadow: 1px 1px 1px #292929;
+    text-shadow: 1px 1px 3px #292929;
   }
-}
-
-@media screen and (max-width: 380px) {
   .bg-image h1 {
+    font-size: 55px;
+    line-height: 60px;
     padding-top: 30px;
   }
 }

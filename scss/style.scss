@@ -79,6 +79,7 @@ body {
    background-size: cover;
    background-position: center;
    margin-top: 83px;
+   margin-bottom: 70px;
 
    .container {
       max-width: 1600px;
@@ -120,20 +121,19 @@ body {
    border: 1px solid #01996d;
    border-radius: 4px;
    padding: 20px 50px;
+   display: inline-block;
 }
 
 .info {
-   &__mini {
-      margin-top: 170px;
-   }
    &__main {
       display: flex;
-      justify-content: space-between;
+      gap: 20px;
       align-items: center;
    }
+
    .text {
-      max-width: 735px;
       font-size: 23px;
+      max-width: 50%;
    }
    h2 {
       max-width: 580px;
@@ -151,7 +151,6 @@ body {
 
 h2 {
    font-family: "Georgia";
-   font-style: normal;
    font-weight: 700;
    font-size: 50px;
    line-height: 150%;
@@ -191,7 +190,7 @@ h2 {
          .cards__title {
             position: absolute;
             left: 33%;
-            top: 10%;
+            top: 13%;
          }
          margin-top: 50px;
       }
@@ -329,6 +328,7 @@ h2 {
       max-width: 80%;
    }
 }
+
 @media screen and (max-width: 1200px) {
    .header__logo {
       margin-right: 50px;
@@ -401,15 +401,13 @@ h2 {
          flex-wrap: wrap;
       }
 
-      h2 {
-         margin-bottom: 30px;
+      &__mini {
+         margin-bottom: 15px;
       }
 
-      &__mini {
-         margin-top: 100px;
-      }
       .text {
-         font-size: 20px;
+         font-size: 19px;
+         max-width: none;
       }
    }
    .header {
@@ -441,12 +439,11 @@ h2 {
    }
 
    h2 {
-      font-size: 47px;
-      line-height: 115%;
+      font-size: 40px;
+      line-height: 110%;
    }
-
    .video__title {
-      font-size: 47px;
+      font-size: 40px;
       line-height: 115%;
    }
 }
@@ -455,14 +452,11 @@ h2 {
    .bg-image {
       .text {
          color: #ffffff;
-         text-shadow: 1px 1px 1px #292929;
+         text-shadow: 1px 1px 3px #292929;
       }
-   }
-}
-
-@media screen and (max-width: 380px) {
-   .bg-image {
       h1 {
+         font-size: 55px;
+         line-height: 60px;
          padding-top: 30px;
       }
    }
