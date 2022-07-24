@@ -90,15 +90,16 @@ h6 {
 }
 
 /*--------------------*/
-.bigred {
-  font-size: 20px;
-  color: red;
+@font-face {
+  font-family: "Proxima Nova Regular";
+  src: url("../fonts/ProximaNova-Regular.eot");
+  src: url("../fonts/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
-
 body {
   height: 100%;
 }
-
 body img {
   max-width: 100%;
   display: block;
@@ -122,29 +123,24 @@ body img {
   -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
 }
-
 .header nav {
   margin-right: auto;
 }
-
 .header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 70px;
 }
-
 .header nav ul a {
   font-family: "Lato";
   font-weight: 500;
   font-size: 20px;
   color: #292929;
 }
-
 .header__logo {
   margin-right: 150px;
 }
-
 .header__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -157,7 +153,6 @@ body img {
           justify-content: flex-start;
   max-width: 1600px;
 }
-
 .header__buttons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -170,11 +165,9 @@ body img {
   font-weight: 400;
   font-size: 20px;
 }
-
 .header__button {
   color: #000000;
 }
-
 .header__button-colored {
   color: white;
   background: #01996d;
@@ -192,11 +185,9 @@ body img {
   margin-top: 83px;
   margin-bottom: 70px;
 }
-
 .bg-image .container {
   max-width: 1600px;
 }
-
 .bg-image h1 {
   max-width: 440px;
   padding-top: 175px;
@@ -209,7 +200,6 @@ body img {
   color: #01996d;
   text-shadow: 1px 1px black;
 }
-
 .bg-image .text {
   max-width: 420px;
   padding-bottom: 60px;
@@ -244,12 +234,10 @@ body img {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .info .text {
   font-size: 23px;
   max-width: 50%;
 }
-
 .info h2 {
   max-width: 580px;
 }
@@ -275,7 +263,6 @@ h2 {
   margin-top: 85px;
   margin-bottom: 50px;
 }
-
 .cards .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -284,38 +271,31 @@ h2 {
       justify-content: space-around;
   gap: 30px;
 }
-
 .cards__item {
   position: relative;
   max-width: 385px;
 }
-
 .cards__item:nth-child(1) .cards__title {
   position: absolute;
   left: 22.5%;
   top: 9.5%;
 }
-
 .cards__item:nth-child(2) {
   margin-top: 270px;
 }
-
 .cards__item:nth-child(2) .cards__title {
   position: absolute;
   left: 18.5%;
   top: 12.5%;
 }
-
 .cards__item:nth-child(3) {
   margin-top: 50px;
 }
-
 .cards__item:nth-child(3) .cards__title {
   position: absolute;
   left: 33%;
   top: 13%;
 }
-
 .cards__number {
   font-family: "Georgia";
   font-style: normal;
@@ -323,13 +303,11 @@ h2 {
   font-size: 150px;
   color: rgba(1, 153, 109, 0.2);
 }
-
 .cards__title {
   font-family: "Georgia";
   font-weight: 700;
   font-size: 30px;
 }
-
 .cards__text {
   margin: 30px 0 60px 0;
 }
@@ -339,7 +317,6 @@ h2 {
   padding-top: 180px;
   padding-bottom: 180px;
 }
-
 .video .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -352,7 +329,6 @@ h2 {
           align-items: center;
   max-width: 1600px;
 }
-
 .video__title {
   font-family: "Georgia";
   font-weight: 700;
@@ -361,7 +337,6 @@ h2 {
   color: #ffffff;
   margin-bottom: 30px;
 }
-
 .video__text {
   font-family: "Lato";
   font-weight: 500;
@@ -370,18 +345,15 @@ h2 {
   color: #ffffff;
   margin-bottom: 80px;
 }
-
 .video__player {
   background-repeat: no-repeat;
   position: relative;
 }
-
 .video__icon {
   position: absolute;
   top: 43%;
   left: 45%;
 }
-
 .video h2 {
   max-width: 580px;
 }
@@ -390,7 +362,6 @@ h2 {
   margin-top: 120px;
   margin-bottom: 150px;
 }
-
 .product .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -398,30 +369,24 @@ h2 {
   gap: 100px;
   max-width: 1370px;
 }
-
 .product__photo {
   position: relative;
 }
-
 .product__card {
   max-width: 65%;
   position: absolute;
   top: 55%;
   left: -10%;
 }
-
 .product__text {
   max-width: 584px;
 }
-
 .product__mini {
   margin-bottom: 15px;
 }
-
 .product h2 {
   margin-bottom: 15px;
 }
-
 .product .text {
   margin-bottom: 40px;
 }
@@ -431,7 +396,6 @@ h2 {
   padding-bottom: 100px;
   padding-top: 100px;
 }
-
 .footer__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -442,7 +406,6 @@ h2 {
           flex-direction: column;
   gap: 40px;
 }
-
 .footer__list li a {
   font-family: "Lato";
   font-weight: 500;
@@ -450,7 +413,6 @@ h2 {
   line-height: 30px;
   color: #ffffff;
 }
-
 .footer__logo {
   margin-bottom: 60px;
 }
@@ -460,7 +422,6 @@ h2 {
   display: none;
   margin-left: 40px;
 }
-
 .header__burger img {
   max-width: 80%;
 }
@@ -489,7 +450,6 @@ h2 {
     max-width: 690px;
   }
 }
-
 @media screen and (max-width: 950px) {
   .header nav {
     display: none;
@@ -519,7 +479,6 @@ h2 {
     margin-bottom: 50px;
   }
 }
-
 @media screen and (max-width: 768px) {
   .info__main {
     -ms-flex-wrap: wrap;
@@ -562,7 +521,6 @@ h2 {
     line-height: 115%;
   }
 }
-
 @media screen and (max-width: 491px) {
   .bg-image .text {
     color: #ffffff;

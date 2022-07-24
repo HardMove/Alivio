@@ -79,7 +79,12 @@ h6 {
 }
 /*--------------------*/
 
-.bigred {
-	font-size: 20px;
-	color: red;
+@font-face {
+	font-family: "Proxima Nova Regular";
+	src: url("../fonts/ProximaNova-Regular.eot");
+	src: url("../fonts/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/ProximaNova-Regular.woff") format("woff"),
+		url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
 }
